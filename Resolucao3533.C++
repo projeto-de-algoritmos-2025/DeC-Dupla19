@@ -13,5 +13,10 @@ public:
                 p = (p * 10) % k;
             pow10[i] = p;
         }
+
+        // memo[mask][mod] = -1 (não visitado), 0 (falso), 1 (verdadeiro)
+        vector<vector<int>> memo(1 << n, vector<int>(k, -1));
+        vector<vector<int>> nextChoice(1 << n, vector<int>(k, -1));
+
     }
 };
