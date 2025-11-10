@@ -37,6 +37,20 @@ public:
             return res = 0;
         };
 
-        
+        if (!dfs(0, 0))
+            return {};
+
+        // reconstrução da resposta
+        vector<int> ans;
+        int mask = 0, mod = 0;
+        while (mask != (1 << n) - 1) {
+            int i = nextChoice[mask][mod];
+            ans.push_back(nums[i]);
+            int newMod = (mod * pow10[i] + mods[i]) % k;
+            mask |= (1 << i);
+            mod = newMod;
+        }
+    
+
     }
 };
