@@ -18,5 +18,25 @@ public:
         vector<vector<int>> memo(1 << n, vector<int>(k, -1));
         vector<vector<int>> nextChoice(1 << n, vector<int>(k, -1));
 
+        function<bool(int, int)> dfs = [&](int mask, int mod) -> bool {
+            if (mask == (1 << n) - 1)
+                return mod == 0;
+
+            int &res = memo[mask][mod];
+            if (res != -1) return res;
+
+            for (int i = 0; i < n; ++i) {
+                if (!(mask & (1 << i))) {
+                    int newMod = (mod * pow10[i] + mods[i]) % k;
+                    if (dfs(mask | (1 << i), newMod)) {
+                        nextChoice[mask][mod] = i;
+                        return res = 1;
+                    }
+                }
+            }
+            return res = 0;
+        };
+
+        
     }
 };
