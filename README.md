@@ -23,4 +23,4 @@ Serão realizados 3 exercícios, sendo 2 de nível Difícil e um de nível médi
 | []() | Médio | [Resolução]() |
 
 ## Vídeo 
-[Explicação da resolução das questões]()
+[Explicação da resolução das questões](https://youtu.be/nedlksH8Ip0)
