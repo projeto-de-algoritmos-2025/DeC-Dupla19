@@ -18,7 +18,7 @@ Serão realizados 3 exercícios, sendo 2 de nível Difícil e um de nível médi
 
 |Nome | Dificuldade | Link Resolução |
 | -- | -- | -- |
-| [3533. Concatenated Divisibility](https://leetcode.com/problems/concatenated-divisibility) | Difícil | [Resolução](/Resolucao3533.C++) |
+| [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/) | Média | [Resolução](/Resolucao241.C++) |
 | []() | Médio | [Resolução]() |
 | []() | Médio | [Resolução]() |
 
