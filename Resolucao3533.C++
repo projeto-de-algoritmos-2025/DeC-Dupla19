@@ -50,7 +50,8 @@ public:
             mask |= (1 << i);
             mod = newMod;
         }
-    
+        
+        return ans;
 
     }
 };
