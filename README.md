@@ -1,4 +1,4 @@
-# Exercícios sobre Greed
+# Exercícios sobre Dividir e Conquistar
 
 **Conteúdo da Disciplina**: <br> Dividir e Conquistar <br>
 
@@ -10,7 +10,7 @@
 | 222006605  | Bruno Cruz Garcia Rosa |
 
 ## Sobre 
-Repositório com resoluções de problemas de Greed do [LeetCode](https://leetcode.com/).
+Repositório com resoluções de problemas de Dividir e Conquistar do [LeetCode](https://leetcode.com/).
 
 ## Exercicios
 
